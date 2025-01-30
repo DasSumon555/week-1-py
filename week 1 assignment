@@ -1,0 +1,141 @@
+#print("Hello, World!")
+# Define two numbers
+#num1 = 10
+#num2 = 20
+
+# Calculate sum
+#sum_result = num1 + num2
+
+# Print the result
+#print("The sum is:", sum_result)
+
+#square
+#num = float(input("Enter a number: "))
+#print("The square of", num, "is:", square)
+
+# Accept user input
+#name = input("Enter your name: ")
+
+# Greet the user
+#print(f"Hello, {name}! Welcome!")
+
+# Get user input
+#num = int(input("Enter a number: "))
+
+# Check even or odd
+#if num % 2 == 0:
+    #print(f"{num} is an even number.")
+#else:
+#print(f"{num} is an odd number.")
+
+#def get_unique_elements(lst):
+   # unique_list = []
+    #for item in lst:
+        #if item not in unique_list:
+       #     unique_list.append(item)
+   # return unique_list
+
+# Example usage
+#original_list = [1, 2, 2, 3, 4, 4, 5, 6, 6, 7]
+#unique_list = get_unique_elements(original_list)
+#print("Original List:", original_list)
+#print("Unique Elements List:", unique_list)
+
+
+#def celsius_to_fahrenheit(celsius):
+    #return (celsius * 9/5) + 32
+
+# Example usage
+#celsius_temp = float(input("Enter temperature in Celsius: "))
+#fahrenheit_temp = celsius_to_fahrenheit(celsius_temp)
+#print(f"{celsius_temp}°C is equal to {fahrenheit_temp}°F")
+
+#import math
+
+#def calculate_area(radius):
+   # area = math.pi * radius ** 2
+   # return area
+
+# Example usage:
+#radius = 5 # You can change the radius value
+#area = calculate_area(radius)
+#print(f"The area of the circle with radius {radius} is: {area}")
+
+#input_string = "KAZIRANGA UNIVERSITY!"
+#reversed_string = input_string[::-1]
+#print(reversed_string)
+
+#def is_prime(n):
+    #if n <= 1:
+       # return False
+    #for i in range(2, int(n**0.5) + 1):
+        #if n % i == 0:
+            #return False
+   # return True
+
+# Example usage:
+#number = 7
+#if is_prime(number):
+    #print(f"{number} is a prime number.")
+#else:
+    #print(f"{number} is not a prime number.")
+    
+#import math
+
+# Function to calculate factorial
+#def calculate_factorial(n):
+   # return math.factorial(n)
+
+# Example usage
+#number = 5
+#result = calculate_factorial(number)
+#print(f"The factorial of {number} is {result}")
+
+# Example list
+#numbers = [10, 34, 67, 2, 90, 45]
+
+# Find the largest item
+#largest_item = max(numbers)
+
+#print(f"The largest item in the list is {largest_item}")
+
+# Function to check if number is in range
+#def check_in_range(number, start, end):
+    #if start <= number <= end:
+      #  return True
+   # else:
+       # return False
+
+# Example usage
+#number = 15
+#start = 10
+#end = 20
+
+#if check_in_range(number, start, end):
+   # print(f"{number} is in the range between {start} and {end}.")
+#else:
+   # print(f"{number} is not in the range between {start} and {end}.")
+   
+   # Function to count uppercase and lowercase letters
+def count_case_letters(input_string):
+    uppercase_count = 0
+    lowercase_count = 0
+
+    for char in input_string:
+        if char.isupper():
+            uppercase_count += 1
+        elif char.islower():
+            lowercase_count += 1
+
+    return uppercase_count, lowercase_count
+
+# Example usage
+input_string = "Hello World!"
+uppercase, lowercase = count_case_letters(input_string)
+
+print(f"Uppercase letters: {uppercase}")
+print(f"Lowercase letters: {lowercase}")
+
+
+
+
